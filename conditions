@@ -1,0 +1,55 @@
+
+
+'''
+Decision making comments
+
+if
+else
+elif
+nested if
+
+
+
+
+'''
+
+
+'''
+
+if condition:
+   statement
+
+else:
+    statement   
+
+
+'''
+
+#if False:
+#   print("nanu if")
+
+#elif False:
+ #   print("nanuel if")  
+
+#else:
+  #   print("nenu else")    
+
+ #if False:
+ #   print("outer if")
+ #  if True:
+ #      print("inner if")
+ #  else:
+ #      print ("inner else")
+
+# else:
+#   print("outer Else")
+
+
+age=17
+if age>18 :
+   print("you can vote")
+elif age==18:
+   print("you can votee")
+       
+else:
+   print ("wait")   

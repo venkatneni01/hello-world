@@ -1,0 +1,6 @@
+
+for i in "pythonelifr":
+    if i=='l':
+     break
+        
+    print(i)

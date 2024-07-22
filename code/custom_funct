@@ -1,0 +1,42 @@
+
+
+def custom_func():
+    print('dummy')
+
+def custom_func_params(p1, p2):
+    print(p1)
+    print(p2)
+
+def custom_func_params_optional(p1, p2=5):
+    print(p1)
+    print(p2)
+
+def custom_args(*args):
+    for arg in args:
+        print(arg)
+
+def custoom_args_arg(arg1, *args):
+    print(arg1)
+    for arg in args:
+        print(arg)
+
+def custom_kwargs(**kwargs):
+    for k, v in kwargs.items():
+        print(k)
+        print(v)
+
+def custom_kwargs(arg, **kwargs):
+    print(arg)
+    for k, v in kwargs.items():
+        print(k)
+        print(v)
+    
+
+if __name__ == '__main__':
+    # custom_func()
+    # custom_func_params(p1=5, p2=6)
+    # custom_func_params_optional(p1=6)
+    # custom_func_params_optional(p1=6, p2=15)
+    # custom_args(1, 2, 3)
+    # custoom_args_arg(1, 2, 3)
+    custom_kwargs(arg=15,p1=5, p2=6)

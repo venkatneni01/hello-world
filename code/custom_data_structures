@@ -1,0 +1,89 @@
+
+
+def dummy_list():
+
+    dummy_list1 = ['orange', 'apple', 'banana']
+    print(dummy_list1)
+
+    dummy_list2 = ['orange', 5, 5.6, True]
+    print(dummy_list1)
+
+    dummy_list2.append('apple')
+    print(dummy_list1)
+
+    dummy_list1.extend(dummy_list2)
+
+    print(dummy_list1)
+
+    print(dummy_list1[0])
+
+    print(dummy_list1[0:3])
+
+    dummy_list1[1] = 6
+
+    print(dummy_list1)
+
+    print('-------------------')
+
+    for item in dummy_list1:
+        if item == 'orange':
+            print('orange -->')
+        elif item == 'apple':
+            print('apple =====>')
+        else:
+            print(item)
+
+
+def dummy_dict():
+    dummy_dict1 = {
+       'key1': 'val1',
+       'key2': 'val2' 
+                   
+    }
+
+    print(dummy_dict1)
+
+    print(dummy_dict1['key1'])
+    dummy_dict1['key1'] = 6
+
+    print(dummy_dict1)
+    dummy_dict1['key3'] = 65
+    print('-----------------')
+    for k, v in dummy_dict1.items():
+        if v == "val2":
+            print('inte')
+        else:
+            print(k)
+            print(v)
+
+
+def dummy_tuple():
+    dummy_tuple1 = (1, 2, 3, 3)
+    print(dummy_tuple1)
+    print(dummy_tuple1[0])
+    print('------------------')
+    for item in dummy_tuple1:
+        print(item)
+
+
+def dummy_set():
+    dummy_set1 = {'123', 'abc', 'abc'}
+    print(dummy_set1)
+
+    dummy_set1.add(56)
+
+    print(dummy_set1)
+
+    dummy_set1.remove('123')
+    print(dummy_set1)
+
+    for item in dummy_set1:
+        print(item)
+
+
+
+if __name__ == '__main__':
+    # dummy_list()
+    # dummy_dict()
+    # dummy_tuple()
+    dummy_set()

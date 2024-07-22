@@ -1,0 +1,38 @@
+'''
+for
+while 
+
+
+
+'''
+'''
+for i in range(0,10,):
+    print(i)
+
+    '''
+
+'''
+b="pythonlifre"
+for k in b:
+    print(k)
+
+'''
+
+'''
+k=19
+
+
+while k<20 or k==30:
+    print ("hi")
+    k+=1
+
+
+else:
+    print("venkat is a python hero") 
+    
+     
+    '''
+
+for i in range(0,10):
+    for j in range(0,100):
+     print(i+j)
