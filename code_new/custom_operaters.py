@@ -33,6 +33,41 @@ def oper():
     if a <= b:
         print('lessthan or equal')
 
+    # logical operators
+
+
+
+    if (a == 5) and (b == 6):
+        print('and')
+
+    if (a == 5) or (b == 6):
+        print('or')
+
+    if not (a == 5):
+        print('not')
+
+    # assignment operator
+    a = 5
+
+    a += 5 # a = a + 5
+
+    print(a)
+
+    a -= 5 # a = a - 5
+
+    print(a)
+    a = 10
+
+    a *= 5 # a = a * 5
+
+    print(a)
+
+    a %= 5 # a = a % 5
+
+    print(a)
+
+
+
 def new_ex1(): 
 
     a = 11
@@ -51,6 +86,17 @@ def new_ex1():
         print ('not equal')
 
 
+def ass_new():
+    a = 5
+
+    a += 5
+    
+    print(a)
+
+    a -= 10
+
+    print (a)
+
           
 
 
@@ -64,6 +110,10 @@ def new_ex1():
 
 if __name__ == '__main__':
     #oper()
-    new_ex1()
+    #new_ex1()
+
+    ass_new()
+    
+        
 
 
