@@ -66,6 +66,14 @@ def oper():
 
     print(a)
 
+    '''
+    pip install requests
+    pip freeze > requiremets.txt
+     pip install -r .\requiremets.tx
+
+
+   
+    '''
 
 
 def new_ex1(): 
