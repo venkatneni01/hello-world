@@ -1,4 +1,4 @@
-def my_map(my_func, my_iter):
+ def my_map(my_func, my_iter):
    
     result = []
 
@@ -13,7 +13,6 @@ num = [2,3,4,5,6,7]
 
 cubed = my_map(lambda x: x**3, num)
 
-print(cubed)
-
+print(cubed) 
 
 
